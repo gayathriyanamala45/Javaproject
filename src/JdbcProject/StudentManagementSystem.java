@@ -8,15 +8,15 @@ public class StudentManagementSystem {
     private static final String URL =
             "jdbc:mysql://localhost:3306/?serverTimezone=UTC";
     private static final String USER = "root";
-    private static final String PASSWORD = "Y Gayathri45";
+    private static final String PASSWORD = "MySql Password";
 
     private static final Scanner sc = new Scanner(System.in);
 
     // Database connection
     private static Connection getConnection() throws SQLException {
         return DriverManager.getConnection(
-                "jdbc:mysql://localhost:3306/student_management_db?serverTimezone=UTC",
-                USER, PASSWORD);
+        		"jdbc:mysql://localhost:3306/student_management_jdbc_db?serverTimezone=UTC",
+        		USER, PASSWORD);
     }
 
     // Create database and all five tables

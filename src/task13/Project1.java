@@ -138,7 +138,7 @@ public class Project1 {
 
     void register() {
 
-        System.out.println("\n--------- REGISTRATION ---------");
+        System.out.println("\n REGISTRATION");
 
         System.out.print("Enter username: ");
         String username = sc.nextLine();
@@ -172,7 +172,7 @@ public class Project1 {
 
     void login() {
 
-        System.out.println("\n------------- LOGIN -------------");
+        System.out.println("\n LOGIN");
 
         System.out.print("Enter username: ");
         String username = sc.nextLine();
@@ -199,7 +199,7 @@ public class Project1 {
 
         while (true) {
 
-            System.out.println("\n--------- USER MENU ---------");
+            System.out.println("\n USER MENU");
 
             System.out.println("1. View Candidates");
             System.out.println("2. Cast Vote");
@@ -242,7 +242,7 @@ public class Project1 {
 
     void displayCandidates() {
 
-        System.out.println("\n--------- CANDIDATE LIST ---------");
+        System.out.println("\n CANDIDATE LIST");
 
         for (Candidate candidate : candidates.values()) {
 
@@ -306,7 +306,7 @@ public class Project1 {
 
     void viewTotalVotes() {
 
-        System.out.println("\n--------- TOTAL VOTES ---------");
+        System.out.println("\nTOTAL VOTES");
 
         int totalVotes = 0;
 
@@ -326,7 +326,7 @@ public class Project1 {
 
     void displayResult() {
 
-        System.out.println("\n========= ELECTION RESULT =========");
+        System.out.println("\nELECTION RESULT");
 
         if (candidateVotes.isEmpty()) {
 
@@ -362,7 +362,7 @@ public class Project1 {
 
         viewTotalVotes();
 
-        System.out.println("\n--------- FINAL RESULT ---------");
+        System.out.println("\nFINAL RESULT");
 
         System.out.println(
             "Finalist / Winner : " +
